@@ -58,7 +58,7 @@ python main.py
 ```
 
 ## 📦 Módulos y Responsabilidades
-- **main.py**
+- **main.py**  
     Llama a **menu.menuPrincipal()** y arranca el sistema  
 
 - **corefiles.py**
