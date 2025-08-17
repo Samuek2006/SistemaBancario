@@ -58,29 +58,29 @@ python main.py
 ```
 
 ## 📦 Módulos y Responsabilidades
-- *main.py*
+- **main.py**
     Llama a **menu.menuPrincipal()** y arranca el sistema  
 
-- *corefiles.py*
+- **corefiles.py**
     - Lectura y escritura de archivos JSON.  
-    - Inicialización de estructura base (**cuentasBancarias**).  
+    - Inicialización de estructura base (*cuentasBancarias*).  
     - Funciones de actualización y eliminación dentro del JSON
 
-- *menu.py*
+- **menu.py**
     - Contiene los menús interactivos para el usuario.  
     - Incluye menús anidados: principal, clientes, saldos, créditos y portafolio  
 
-- *operaciones.py*
+- **operaciones.py**
     - Funciones de negocio:
-        - **crear_cuenta()**  
-        - **depositar()**  
-        - **solicitarCredito()** (con validación RCI)  
-        - **retirar()**  
-        - **pagoCuota()**  
-        - **cancelarCuenta()**  
+        - *crear_cuenta()*  
+        - *depositar()*  
+        - *solicitarCredito()* (con validación RCI)  
+        - *retirar()*  
+        - *pagoCuota()*  
+        - *cancelarCuenta()*  
     - Todas actualizan el archivo JSON y mantienen historial
 
-- *utilidades.py*
+- **utilidades.py**
     - Limpieza de pantalla.  
     - Pausa temporal entre operaciones  
 
